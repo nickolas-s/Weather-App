@@ -1,0 +1,22 @@
+{
+  "name": "npmmodules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "date-fns": "^2.12.0",
+    "dotenv": "^8.2.0"
+  },
+  "browserslist": [
+    "last 1 chrome versions"
+  ]
+}
