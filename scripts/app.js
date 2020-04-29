@@ -5,8 +5,6 @@ import { img, cityLocation, description, temperature, feelsLike, humidity, wind,
 import { ICON_BASE } from './const.js';
 import { fetchLocalTime, fetchData, failedToFetch } from './fetch.js';
 
-require('dotenv').config();
-
 const location = {
   city: 'Mississauga',
   country: 'CA',
