@@ -2,9 +2,9 @@
   "name": "npmmodules",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "start": "parcel watch index.html",
+    "start": "parcel index.html --public-url ./dist/",
     "build": "parcel build index.html"
   },
   "author": "",
