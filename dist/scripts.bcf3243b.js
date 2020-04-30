@@ -1064,7 +1064,7 @@ const OPEN_WEATHER_BASE = 'https://api.openweathermap.org/data/2.5/weather?q=';
 exports.OPEN_WEATHER_BASE = OPEN_WEATHER_BASE;
 const TIME_ZONE_KEY = "XRA1WZVMCC0V";
 exports.TIME_ZONE_KEY = TIME_ZONE_KEY;
-const TIME_ZONE_BASE = 'http://api.timezonedb.com/v2.1/get-time-zone?key=';
+const TIME_ZONE_BASE = 'https://api.timezonedb.com/v2.1/get-time-zone?key=';
 exports.TIME_ZONE_BASE = TIME_ZONE_BASE;
 const ICON_BASE = 'http://openweathermap.org/img/wn/';
 exports.ICON_BASE = ICON_BASE;
@@ -18638,7 +18638,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57752" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61562" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
